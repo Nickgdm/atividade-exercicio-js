@@ -27,7 +27,11 @@ const usuarioInvalido = {
 // verificarMaiorIdade(20) -> true
 // verificarMaiorIdade(15) -> false
 function verificarMaiorIdade(idade) {
-  return idade >= 18
+  if (idade >= 18) {
+    return "Maior de idade"
+  } else {
+    return "Menor de idade"
+  }
 }
 
 // Função pronta
@@ -45,7 +49,7 @@ function validarEmail(email) {
 //
 // Dica: utilize a propriedade "ativo" do objeto usuário
 function usuarioAtivo(usuario) {
-  return usuario.ativo
+  return Boolean(usuario.ativo)
 }
 
 // Esta função combina todas as validações do cadastro
