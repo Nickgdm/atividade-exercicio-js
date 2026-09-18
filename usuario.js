@@ -27,11 +27,7 @@ const usuarioInvalido = {
 // verificarMaiorIdade(20) -> true
 // verificarMaiorIdade(15) -> false
 function verificarMaiorIdade(idade) {
-  if (idade >= 18) {
-    return "Maior de idade"
-  } else {
-    return "Menor de idade"
-  }
+  return idade >= 18
 }
 
 // Função pronta
