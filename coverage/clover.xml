@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1790102658972" clover="3.2.0">
+  <project timestamp="1790102658972" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4" elements="19" coveredelements="19" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+    <file name="usuario.js" path="C:\Users\Nicollas\repositoriocypress\exercicio-js\usuario.js">
+      <metrics statements="12" coveredstatements="12" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="30" count="10" type="stmt"/>
+      <line num="36" count="9" type="stmt"/>
+      <line num="48" count="9" type="stmt"/>
+      <line num="55" count="7" type="stmt"/>
+      <line num="56" count="7" type="stmt"/>
+      <line num="57" count="7" type="stmt"/>
+      <line num="61" count="7" type="cond" truecount="3" falsecount="0"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="74" count="1" type="stmt"/>
+      <line num="79" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,20 +1,16 @@
 {
-  "name": "exercicio",
+  "name": "js",
   "version": "1.0.0",
-  "description": "Neste exercício você irá praticar conceitos básicos de **JavaScript**, incluindo:",
-  "homepage": "https://github.com/EBAC-QE/exercicio-js#readme",
-  "bugs": {
-    "url": "https://github.com/EBAC-QE/exercicio-js/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EBAC-QE/exercicio-js.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "usuario.js",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2"
   }
 }
