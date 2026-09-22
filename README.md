@@ -1,82 +1,37 @@
-# Exercício – Validação de Cadastro de Usuário (JavaScript)
+# 🧪 Testes Unitários com Jest
 
-## Objetivo
+Projeto desenvolvido durante o curso de **Quality Assurance (QA) da EBAC**, com o objetivo de aplicar conceitos de **testes unitários**, **Jest** e **técnicas de testes de caixa branca**.
 
-Neste exercício você irá praticar conceitos básicos de **JavaScript**, incluindo:
-
-- Tipos de dados
-- Variáveis
-- Operadores de comparação
-- Operadores lógicos
-- Funções
-- Manipulação de objetos
-
-O objetivo é implementar algumas funções que validam se um **cadastro de usuário é válido**.
-
-Este código também será utilizado no **próximo módulo**, onde criaremos **testes automatizados com Jest**.
+A atividade utiliza como base um exercício de **validação de cadastro de usuário**, implementando testes automatizados para verificar o comportamento das funções desenvolvidas em JavaScript.
 
 ---
 
-# Cenário
+## ▶️ Como executar o projeto
 
-Um sistema possui um cadastro de usuários e precisa validar algumas regras antes de considerar o cadastro válido.
+### 1. Instalar as dependências
 
-As regras são:
+Caso o projeto ainda não possua as dependências instaladas:
 
-- O usuário deve ter **18 anos ou mais**
-- O email deve conter **"@"**
-- O usuário deve estar **ativo**
+```bash
+npm install
+```
 
----
+### 2. Executar os testes
 
-# Desafio
-
-No arquivo `usuario.js`, algumas funções estão incompletas.
-
-Você deverá implementar as seguintes funções:
-
-## verificarMaiorIdade
-
-Esta função deve retornar:
-
-- `true` se a idade for **maior ou igual a 18**
-- `false` caso contrário
+```bash
+npm test
+```
 
 ---
 
-## usuarioAtivo
+## 📚 Aprendizados
 
-Esta função deve verificar se o usuário está ativo.
+Esta atividade permitiu praticar a criação de testes automatizados com Jest, desde a definição dos cenários até a análise da cobertura de código.
 
-Ela deve retornar:
-
-- `true` se o usuário estiver ativo
-- `false` caso contrário
-
----
-## Como executar o exercício
-
-1. Abra o terminal
-
-2. Acesse a pasta do projeto
-
-
-cd nome-da-pasta-do-projeto
-
-
-3. Execute o arquivo JavaScript com Node.js
-
-
-node usuario.js
-
+Também foi possível aplicar conceitos de **caixa branca**, analisando as condições e decisões presentes na implementação para criar testes capazes de percorrer os diferentes caminhos do código.
 
 ---
 
-## Resultado esperado
+## 🎓 Formação
 
-Após implementar corretamente as funções, o resultado no console deve ser parecido com este:
-
-
-Usuário 1 válido? true
-
-Usuário 2 válido? false
+Atividade desenvolvida durante a formação profissionalizante em **Quality Assurance (QA) pela EBAC — Escola Britânica de Artes Criativas e Tecnologia**.
